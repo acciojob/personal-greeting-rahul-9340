@@ -11,7 +11,7 @@ function modifyValue(value){
   return (
     <div>
        <input type="text" onChange={(e)=>{
-        modifyValue(e.target.value)
+        modifyValue("Hello "+e.target.value+"!")
        }} 
        /> 
 
